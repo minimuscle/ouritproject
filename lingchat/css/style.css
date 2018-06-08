@@ -14,7 +14,7 @@ body {
 }
 
 a {
-  color: #00e0e7;
+  color: #25b90b;
   transition: 0.5s;
 }
 
@@ -54,7 +54,7 @@ h1, h2, h3, h4, h5, h6 {
 .back-to-top {
   position: fixed;
   display: none;
-  background: #00e0e7;
+  background: #25b90b;
   color: #fff;
   padding: 6px 12px 9px 12px;
   font-size: 16px;
@@ -71,13 +71,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .back-to-top:focus {
-  background: #00e0e7;
+  background: #25b90b;
   color: #fff;
   outline: none;
 }
 
 .back-to-top:hover {
-  background: rgb(180, 45, 204);
+  background: #0051c0;
   color: #fff;
 }
 
@@ -97,11 +97,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #topbar .contact-info a:hover {
-  color: #00e0e7;
+  color: #25b90b;
 }
 
 #topbar .contact-info i {
-  color: #00e0e7;
+  color: #25b90b;
   padding: 4px;
 }
 
@@ -120,7 +120,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #topbar .social-links a:hover {
-  color: #00e0e7;
+  color: #25b90b;
 }
 
 #topbar .social-links a:first-child {
@@ -131,8 +131,8 @@ h1, h2, h3, h4, h5, h6 {
 # Header
 --------------------------------------------------------------*/
 #header {
-  padding: 20px 0;
-  height: 84px;
+  padding: 40px 0;
+  height: 120px;
   transition: all 0.5s;
   z-index: 997;
   background: #fff;
@@ -149,18 +149,18 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header #logo h1 a {
-  color: rgb(180, 45, 204);
+  color: #0051c0;
   line-height: 1;
   display: inline-block;
 }
 
 #header #logo h1 a span {
-  color: #00e0e7;
+  color: #25b90b;
 }
 
 #header #logo img {
-  padding: 0;
-  margin: 0;
+  padding: -40px;
+  margin: -40px;
 }
 
 @media (max-width: 768px) {
@@ -172,7 +172,7 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 34px;
   }
   #header #logo img {
-    max-height: 40px;
+    max-height: 75px;
   }
 }
 
@@ -202,14 +202,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #intro .intro-content h2 {
-  color: rgb(180, 45, 204);
+  color: #0051c0;
   margin-bottom: 30px;
   font-size: 64px;
   font-weight: 700;
 }
 
 #intro .intro-content h2 span {
-  color: #00e0e7;
+  color: #25b90b;
   text-decoration: underline;
 }
 
@@ -233,23 +233,23 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #intro .intro-content .btn-get-started {
-  background: rgb(180, 45, 204);
-  border: 2px solid rgb(180, 45, 204);
+  background: #0051c0;
+  border: 2px solid #0051c0;
 }
 
 #intro .intro-content .btn-get-started:hover {
   background: none;
-  color: rgb(180, 45, 204);
+  color: #0051c0;
 }
 
 #intro .intro-content .btn-projects {
-  background: #00e0e7;
-  border: 2px solid #00e0e7;
+  background: #25b90b;
+  border: 2px solid #25b90b;
 }
 
 #intro .intro-content .btn-projects:hover {
   background: none;
-  color: #00e0e7;
+  color: #25b90b;
 }
 
 #intro #intro-carousel {
@@ -363,7 +363,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu li:hover > a, .nav-menu > .menu-active > a {
-  color: #00e0e7;
+  color: #25b90b;
 }
 
 .nav-menu > li {
@@ -391,7 +391,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu ul li:hover > a {
-  color: #00e0e7;
+  color: #25b90b;
 }
 
 .nav-menu ul ul {
@@ -478,11 +478,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #mobile-nav ul .menu-has-children i.fa-chevron-up {
-  color: #00e0e7;
+  color: #25b90b;
 }
 
 #mobile-nav ul .menu-item-active {
-  color: #00e0e7;
+  color: #25b90b;
 }
 
 #mobile-body-overly {
@@ -520,7 +520,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .section-header h2 {
   font-size: 32px;
-  color: rgb(180, 45, 204);
+  color: #0051c0;
   text-transform: uppercase;
   font-weight: 700;
   position: relative;
@@ -533,7 +533,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   display: block;
   width: 50px;
   height: 3px;
-  background: #00e0e7;
+  background: #25b90b;
   bottom: 0;
   left: 0;
 }
@@ -555,7 +555,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #about .about-img img {
   margin-left: -15px;
-  max-width: 100%;
+  margin-top: -30px;
+  max-width: 75%;
 }
 
 @media (max-width: 768px) {
@@ -569,7 +570,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #about .content h2 {
-  color: rgb(180, 45, 204);
+  color: #0051c0;
   font-weight: 700;
   font-size: 36px;
   font-family: "Raleway", sans-serif;
@@ -594,7 +595,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #about .content i {
   font-size: 20px;
   padding-right: 4px;
-  color: #00e0e7;
+  color: #25b90b;
 }
 
 #about .content ul {
@@ -640,8 +641,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #services .box .icon i:before {
-  background: rgb(180, 45, 204);
-  background: linear-gradient(45deg, #00e0e7 0%, #a3ebd5 100%);
+  background: #0051c0;
+  background: linear-gradient(45deg, #25b90b 0%, #a3ebd5 100%);
   background-clip: border-box;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -712,7 +713,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #clients .owl-dot.active {
-  background-color: #00e0e7;
+  background-color: #25b90b;
 }
 
 /* Our Portfolio Section
@@ -851,13 +852,13 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #testimonials .owl-dot.active {
-  background-color: #00e0e7;
+  background-color: #25b90b;
 }
 
 /* Call To Action Section
 --------------------------------*/
 #call-to-action {
-  background: #3a085b;
+  background: #01275c;
   background-size: cover;
   padding: 40px 0;
 }
@@ -895,8 +896,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #call-to-action .cta-btn:hover {
-  background: #00e0e7;
-  border: 3px solid #00e0e7;
+  background: #25b90b;
+  border: 3px solid #25b90b;
 }
 
 /* Our Team Section
@@ -921,7 +922,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #team .member .details {
-  background: #00e0e7;
+  background: #0051c0;
   color: #fff;
   padding: 15px;
   border-radius: 0 0 3px 3px;
@@ -967,7 +968,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 48px;
   display: inline-block;
   margin-bottom: 10px;
-  color: #00e0e7;
+  color: #25b90b;
 }
 
 #contact .contact-info address, #contact .contact-info p {
@@ -988,7 +989,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #contact .contact-info a:hover {
-  color: #00e0e7;
+  color: #25b90b;
 }
 
 #contact .contact-address, #contact .contact-phone, #contact .contact-email {
@@ -1020,8 +1021,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #contact .form #sendmessage {
-  color: #00e0e7;
-  border: 1px solid #00e0e7;
+  color: #25b90b;
+  border: 1px solid #25b90b;
   display: none;
   text-align: center;
   padding: 15px;
@@ -1059,7 +1060,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #contact .form button[type="submit"] {
-  background: #00e0e7;
+  background: #25b90b;
   border: 0;
   border-radius: 3px;
   padding: 10px 30px;
@@ -1093,5 +1094,5 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #footer .credits a {
-  color: rgb(180, 45, 204);
+  color: #0051c0;
 }
